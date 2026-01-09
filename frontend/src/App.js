@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
+import { Toaster } from './components/ui/toaster';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
+          <Toaster />
         </div>
       </BrowserRouter>
     </ThemeProvider>
