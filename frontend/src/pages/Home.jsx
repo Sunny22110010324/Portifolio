@@ -78,6 +78,20 @@ const Home = () => {
       >
         <div className="max-w-7xl mx-auto w-full">
           <div className="text-center">
+            {/* Profile Image */}
+            <motion.div variants={itemVariants} className="mb-8 flex justify-center">
+              <div className="relative">
+                <div className="absolute inset-0 bg-emerald-500 rounded-full blur-2xl opacity-30" />
+                <div className="relative w-40 h-40 rounded-full overflow-hidden ring-4 ring-emerald-500/30 shadow-2xl">
+                  <img
+                    src={personal.profileImage}
+                    alt={personal.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </motion.div>
+
             <motion.div variants={itemVariants} className="mb-6">
               <span className="inline-block px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded-full text-sm font-medium">
                 Welcome to my portfolio
