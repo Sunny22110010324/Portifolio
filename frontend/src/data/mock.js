@@ -53,15 +53,6 @@ export const portfolioData = {
     },
     {
       id: 2,
-      title: "E-commerce Negotiation Chatbot",
-      description: "AI-powered chatbot for e-commerce platform with product recommendations, price negotiation, and order management. Built using Dialogflow for NLP-based interactions.",
-      techStack: ["Dialogflow", "Node.js", "MySQL", "NLP"],
-      github: "https://github.com/Sunny22110010324",
-      demo: null,
-      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=500&fit=crop"
-    },
-    {
-      id: 3,
       title: "Performance Dashboard",
       description: "High-performance real-time dashboard built with Vue 3 and TypeScript. Features responsive design and efficient data visualization for monitoring system metrics.",
       techStack: ["Vue 3", "TypeScript", "JavaScript"],
@@ -70,7 +61,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
     },
     {
-      id: 4,
+      id: 3,
       title: "Interactive Bézier Curve",
       description: "Interactive visualization of Bézier curves with live mathematics and physics display. Educational tool demonstrating curve mathematics in real-time.",
       techStack: ["JavaScript", "HTML Canvas", "CSS"],
@@ -79,22 +70,13 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=500&fit=crop"
     },
     {
-      id: 5,
+      id: 4,
       title: "QueueCTL - Job Queue System",
       description: "Background job queue system CLI built with Python. Efficient task management system for handling asynchronous operations and background processes.",
       techStack: ["Python", "CLI", "Queue Management"],
       github: "https://github.com/Sunny22110010324/queuectl",
       demo: null,
       image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=500&fit=crop"
-    },
-    {
-      id: 6,
-      title: "Image Steganography (Internship)",
-      description: "Cyber security project focused on securely embedding hidden data within images. Implemented encryption algorithms for data concealment and retrieval in digital images.",
-      techStack: ["Python", "Cryptography", "Image Processing"],
-      github: "https://github.com/Sunny22110010324/Image-Steganography",
-      demo: null,
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=500&fit=crop"
     }
   ],
 
