@@ -50,8 +50,12 @@ const About = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="absolute inset-0 bg-emerald-500 rounded-2xl blur-2xl opacity-20" />
-                <div className="relative w-80 h-80 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center text-white text-8xl font-bold shadow-2xl">
-                  {personal.name.split(' ').map(n => n[0]).join('')}
+                <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-emerald-500/20">
+                  <img
+                    src={personal.profileImage}
+                    alt={personal.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
