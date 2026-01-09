@@ -9,6 +9,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/sambasiva-rao",
     location: "Andhra Pradesh, India",
     bio: "Driven and motivated computer science student pursuing a Bachelor's degree at SRM University AP. Passionate about technology, problem-solving, and continuous learning. Strong ability to work in a team, manage time efficiently, and meet deadlines. Proficient in Python, web development and Machine Learning Algorithms.",
+    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces",
     resumeUrl: "https://customer-assets.emergentagent.com/job_ae1b4e82-d971-48ba-9891-d96350a734dd/artifacts/qzsqpqu4_MY%20RESUME.pdf"
   },
 
